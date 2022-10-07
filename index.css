@@ -10,12 +10,13 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 body {
     font-family: "Roboto";
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
@@ -146,6 +147,7 @@ main {
     font-weight: bold;
     font-size: 20px;
 
+
 }
 
 p {
@@ -160,7 +162,14 @@ p {
 
 .certi ul {
     gap: 20px;
+
 }
+
+.certi ul {
+
+    justify-content: left;
+}
+
 
 .thingsicons p {
     font-family: 'Roboto';
