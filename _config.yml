@@ -28,16 +28,9 @@ github_username:  mrti259
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-
-remote_theme: jekyll/minima
 
 # Build settings
 theme: minima
-
-minima:
-  skin: solarized-light
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
